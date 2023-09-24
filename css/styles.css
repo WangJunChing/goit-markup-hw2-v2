@@ -1,0 +1,113 @@
+:root{
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --WHITE: #FFF;
+    --SLATE: #434455;
+    --CLOUD: #F4F4FD;
+} 
+body{
+    font-family: "Roboto", sans-serif;
+}
+/* Header Section (NAV) */
+.logo{
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    margin: 0;
+    padding: 0;
+}
+.logo span{
+    color: var(--IRIS);
+}
+.logo:hover{
+    color: goldenrod;
+}
+.nav-list, .nav-contacts{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list  li {
+    color: var(--IRIS);
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: var(--NAVY-BLUE);
+}
+.nav-link:hover{
+    color: goldenrod;
+}
+h4{
+    margin: 0;
+
+}
+
+/* Benefit Section */
+h1{
+    text-align: center;
+}
+.benefit-title {
+    color: var(--WHITE);
+    background-color: var(--NAVY-BLUE);
+}
+.order-button {
+    color: var(--WHITE);
+    background-color: var(--IRIS);
+}
+.order-button:hover{
+    background-color: goldenrod;
+}
+
+.benefit-text {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.benefit-text li{
+    color: var(--NAVY-BLUE);
+    
+}
+.benefit-text p{
+    color: var(--SLATE);
+}
+
+/* We Do Section */
+.wedo h2{
+    text-align: center;
+    color: var(--NAVY-BLUE);
+}
+.wedo-pictures{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Team Section */
+.team h2 {
+    text-align: center;
+    color: var(--NAVY-BLUE);
+}
+.team-members{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.team-members h3{
+    color: var(--NAVY-BLUE);
+}
+.team-members p{
+    color: var(--SLATE);
+}
+
+/* Footer Section */
+.footer{
+    color: var(--CLOUD);
+    background-color: var(--NAVY-BLUE);
+}
+.footer a{
+    color: var(--CLOUD);
+}
