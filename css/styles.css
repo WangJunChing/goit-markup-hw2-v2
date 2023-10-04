@@ -14,20 +14,21 @@ body{
     color: var(--NAVY-BLUE);
     padding: 0;
     margin: 0;
+    
 }
 .list{
     list-style: none;
     margin: 0;
     padding: 0;
 }
-p {
+.p-text {
     color: var(--SLATE);
 }
-h2{
+.section-title{
     text-align: center;
     color: var(--NAVY-BLUE);
 }
-h3 {
+.team-name {
     color: var(--NAVY-BLUE);
 }   /* End of General Style */
 
@@ -35,34 +36,37 @@ h3 {
     /* Header Section (NAV) */
 .header-logo{
     color: var(--NAVY-BLUE);
+    font-family: Raleway;
+    font-weight: 800;
 }
 .header-logo span{
     color: var(--IRIS);
 }
 .header-logo:hover{
-    color: goldenrod;
+    color: var(--IRIS);
 }
 .link:hover{
-    color: goldenrod;
+    color: var(--IRIS);
 }   /* End of Header Section (NAV) */
 
 
     /* Benefit Section */
-h1{
+.hero-txt{
     text-align: center;
 }
 .benefit-title {
     color: var(--WHITE);
     background-color: var(--NAVY-BLUE);
 }
-.button {
+.hero-btn {
     color: var(--WHITE);
     background-color: var(--IRIS);
-    border: 1px solid var(--CLOUD);
+    border: none;
     border-radius: 25px;
 }
-.button:hover{
+.hero-btn:hover{
     background-color: goldenrod;
+    cursor: pointer;
 }   /* End Benefit Section */
 
 
@@ -83,6 +87,8 @@ h1{
 .footer-logo {
     text-decoration: none;
     color: var(--CLOUD);
+    font-family: Raleway;
+    font-weight: 800;
 }
 .footer-text{
     color: var(--CLOUD);
@@ -91,6 +97,6 @@ h1{
     color: var(--IRIS);
 }
 .footer-logo:hover {
-    color: goldenrod;
+    color: var(--IRIS);
 }
     /* End of Footer Section */
